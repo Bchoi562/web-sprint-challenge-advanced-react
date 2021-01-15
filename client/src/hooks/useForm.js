@@ -13,7 +13,7 @@ const useForm = (formFields) => {
     const clearForm = e => {
         e.preventDefault();
         setValues(formFields);
-    };
+    };  
 
     return [values, handleChanges, clearForm];
 }
